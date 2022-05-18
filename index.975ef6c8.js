@@ -25082,14 +25082,22 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function App() {
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_jsxDevRuntime.Fragment, {
         children: [
-            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                children: "Theyalright"
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "heading-container",
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                    children: "Theyalright"
+                }, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 5,
+                    columnNumber: 9
+                }, this)
             }, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 4,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                className: "links",
                 children: [
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
@@ -25097,12 +25105,12 @@ function App() {
                             children: "SoundCloud"
                         }, void 0, false, {
                             fileName: "src/App.js",
-                            lineNumber: 8,
+                            lineNumber: 10,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 7,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
@@ -25111,12 +25119,12 @@ function App() {
                             children: "Spotify"
                         }, void 0, false, {
                             fileName: "src/App.js",
-                            lineNumber: 13,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 12,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
@@ -25125,12 +25133,12 @@ function App() {
                             children: "Instagram"
                         }, void 0, false, {
                             fileName: "src/App.js",
-                            lineNumber: 18,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 17,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
@@ -25139,18 +25147,18 @@ function App() {
                             children: "Twitter"
                         }, void 0, false, {
                             fileName: "src/App.js",
-                            lineNumber: 23,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 22,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 6,
+                lineNumber: 8,
                 columnNumber: 7
             }, this)
         ]
