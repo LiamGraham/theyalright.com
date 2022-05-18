@@ -26,6 +26,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          cname: theyalright.com
         env:
           GITHUB_TOKEN: ${{ secrets.github_token }}
       - name: Patch version
