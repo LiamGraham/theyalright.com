@@ -1,0 +1,30 @@
+{
+  "name": "theyalright.com",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "npx parcel build src/index.html",
+    "start": "npx parcel src/index.html",
+    "deploy": "npx gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiamGraham/theyalright.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiamGraham/theyalright.com/issues"
+  },
+  "homepage": "https://liamgraham.github.io/theyalright.com",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}

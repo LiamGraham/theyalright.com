@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@700,400&display=swap');
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1000px) {
+  #app {
+    width: 80%;
+    margin: 1em;
+  }
+}
+
+@media (max-width: 600px) { 
+  h1 {
+    word-break: break-all;
+    font-size: 3.5em !important;
+  }
+  .links {
+    margin-top: 4em !important;
+  }
+
+  .links li {
+    margin: 2em 0 !important;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-flow: column;
+  width: 60%;
+  margin: 5em;
+}
+
+.heading-container {
+  width: 100%;
+}
+
+h1 {
+  text-transform: uppercase;  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+}
+
+.links {
+  list-style-type: none;
+  font-size: 1.5em;
+  margin-top: 4em;
+  margin-left: auto;
+  text-align: right;
+}
+
+.links li {
+  margin: 0.75em 0;
+}
+
+.links li:nth-child(odd) {
+  transform: rotate(3deg);
+}
+
+.links li:nth-child(even) {
+  transform: rotate(-3deg);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: blue;
+}
