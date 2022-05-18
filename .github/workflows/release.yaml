@@ -15,7 +15,7 @@ jobs:
           node-version: 16
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
-        run: npm install 
+        run: npm ci 
       - name: Perform build
         run: npm run build
       - name: Deploy page
