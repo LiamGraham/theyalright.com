@@ -12,11 +12,6 @@ export function App() {
           </a>
         </li>
         <li>
-          <a href="https://open.spotify.com/artist/47D8WsMlyAn1XzOONDqUsl?si=Qrc3O8AlTwagHFbNgFUm6A">
-            Spotify 
-          </a>
-        </li>
-        <li>
           <a href="https://instagram.com/theyalright">
             Instagram 
           </a>
