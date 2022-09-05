@@ -20,7 +20,6 @@
   },
   "homepage": "https://liamgraham.github.io/theyalright.com",
   "devDependencies": {
-    "gh-pages": "^4.0.0",
     "parcel": "^2.5.0"
   },
   "dependencies": {
