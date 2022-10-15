@@ -7,7 +7,7 @@ export function App() {
 
       <ul className='links'>
         <li>
-          <a href="https://soundcloud.com/theyalright">
+          <a href="https://soundcloud.com/theyalright/popular-tracks">
             SoundCloud
           </a>
         </li>
